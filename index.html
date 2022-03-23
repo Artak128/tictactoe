@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="gameType">
+        <div>
+            <p>Game Type ?</p>
+            <label for="single">Single</label>
+            <input type="radio" name="type" id="single" value="singlePlayer">
+            <label for="two">2 Player</label>
+            <input type="radio" name="type" id="two" value="twoPlayer">
+            <label for="multi">MultiPlayer LAN</label>
+            <input type="radio" name="type" id="multi" value="multiPlayer" disabled>
+            <button name="type" type="submit">OK</button>
+        </div>
+    </div>
+    <div class="choice">
+        <div>
+            <p>Start First ?</p>
+            <label for="o">O</label>
+            <input type="radio" name="game" id="o" value="backCircle">
+            <label for="x">X</label>
+            <input type="radio" name="game" id="x" value="backX">
+            <button type="submit">OK</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="gameBox">
+            <div class="item" id="item1">1</div>
+            <div class="item" id="item2">2</div>
+            <div class="item" id="item3">3</div>
+            <div class="item" id="item4">4</div>
+            <div class="item" id="item5">5</div>
+            <div class="item" id="item6">6</div>
+            <div class="item" id="item7">7</div>
+            <div class="item" id="item8">8</div>
+            <div class="item" id="item9">9</div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
